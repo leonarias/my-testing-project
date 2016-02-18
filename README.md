@@ -20,6 +20,9 @@ The framework consists of the below folder structure:
 - page_objects: This is the object repository. Classes are created by page, mapping all elements inside a web page. This way it's easier to mantain the location of objects.
 - step_definitions: These are the actual implementation of the tests. 
 
+"RunCukeTests.java" (aka Cucumber runner class) controls the test execution. Tags can be used for single script execution or executiom of the whole suite. Tags need to be added inside the scenario files. You can create test suites with this option. Examples: tags = "@negative_test", tags = "@sign_Up".
+
+
 I wasn't able to implement all the test cases due to time constraints but I'm sharing the complete list of test scenarios here for your reference.
 
 RESTful services scripts was also part of the plan. If you want me to create an specific test about that just let me know.
